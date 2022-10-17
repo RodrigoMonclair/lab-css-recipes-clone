@@ -1,0 +1,98 @@
+body, html{
+    margin:0;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+h3{
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+}
+
+.mainImage{
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    padding: 30px;
+}
+
+.recTittle{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p{
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.about article{
+    width:70%;
+    
+}
+.about img{
+    width:500px;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingTittle{
+    width:70%;
+}
+
+.ingList{
+    width: 70%;
+}
+
+.ingList ul{
+    list-style-type: none;
+    font-size: 20px
+}
+
+.ingredients img{
+    width:400px;
+}
+
+.directions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.dirTittle{
+    width:70%;
+}
+
+.dirList{
+    width: 70%;
+    padding-bottom: 40px;
+}
+
+.dirList ul{
+    list-style-type:none ;
+}

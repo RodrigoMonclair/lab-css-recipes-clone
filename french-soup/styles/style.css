@@ -1,9 +1,93 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+
+body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+hr {
+  width: 80vw;
+}
+
+.hero-img {
+  background-image: url(../images/soup.jpg);
+  width: 99vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img > h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.69rem;
+  width: 60vw;
+  position: relative;
+  margin: auto auto;
+  text-align: start;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 50vw;
+  position: relative;
+  margin: auto auto;
+}
+
+.infos > img {
+  width: 25vw;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: flex-start;
+  font-size: 1.3rem;
+  width: 60vw;
+  position: relative;
+  margin: auto auto;
+  text-align: start;
+}
+
+.ingredients ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ingredients img {
+  width: 10vw;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: flex-start;
+  font-size: 1.3rem;
+  width: 60vw;
+  position: relative;
+  margin: auto auto;
+  text-align: start;
+}
+
+.directions ol {
+  list-style-type: none;
+  padding-left: 0;
 }
